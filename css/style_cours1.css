@@ -1,0 +1,49 @@
+.left-box {
+    float: left;
+    width: 30%;
+    height: 100px;
+    background-color: lightblue;
+  }
+  
+  .right-box {
+    float: left;
+    position: relative;
+    left: 20px;
+    width: 30%;
+    height: 100px;
+    background-color: lightcoral;
+  }
+
+  .box3 {
+    float: right;
+    width: 30%;
+    height: 100px;
+    background-color: rgb(227, 241, 233);
+  }
+
+  .box4 {
+    float: right;
+    width: 30%;
+    height: 100px;
+    background-color: rgb(227, 241, 233);
+  }
+
+  .box5 {
+    float: right;
+    width: 30%;
+    height: 100px;
+    background-color: rgb(231, 226, 226);
+  }
+
+  .box6 {
+    
+    
+    height: 20px;
+    background-color: rgb(192, 177, 231);
+  }
+
+  img {
+    width: 100px;
+    height: 100px;
+  }
+  
