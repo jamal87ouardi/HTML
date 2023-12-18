@@ -1,0 +1,29 @@
+.s1{
+    height: 150px;
+    width: 270px;
+    border: 1px solid gray;
+}
+.s1 h2{
+    margin-left: 10px;
+    margin-top: 1px;
+}
+.s1 table{
+    height: 0px;
+    margin-left: 10px;
+}
+.s2{
+    position: relative;
+    top: 50px;
+}
+.s2 table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+.s3{
+    position: relative;
+    top: 100px;
+}
+.s3  table, th, td {
+    border: 1px solid black;
+    
+}
