@@ -1,0 +1,39 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+}
+
+.content {
+    padding: 20px;
+    color: white;
+    text-align: center;
+}
+
+.red {
+    background-color: #ff5733;
+}
+
+.green {
+    background-color: #33ff57;
+}
+
+.blue {
+    background-color: #3366ff;
+}
+
+/* Media query for screens less than 600px */
+@media screen and (max-width: 600px) {
+    .content {
+        width: 80%;
+        margin: 20px auto;
+    }
+}
+
+/* Media query for screens 600px or wider */
+@media screen and (min-width: 600px) {
+    .content {
+        width: 50%;
+        margin: 20px 0;
+        float: left;
+    }
+}
