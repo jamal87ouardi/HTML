@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Media Query Example</title>
+<style>
+  /* Default styles for the div */
+  .box {
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    margin: 10px;
+  }
+
+  /* Media query for screens wider than 600px and narrower than 900px */
+  @media  screen and (min-width: 600px) and (max-width: 900px) {
+    .box {
+      width: 150px;
+      height: 150px;
+      background-color: blue;
+    }
+  }
+
+  /* Media query for screens wider than 900px */
+  @media  screen and (min-width: 900px) {
+    .box {
+      width: 200px;
+      height: 200px;
+      background-color: green;
+    }
+  }
+</style>
+</head>
+<body>
+
+<div class="box"></div>
+
+</body>
+</html>
